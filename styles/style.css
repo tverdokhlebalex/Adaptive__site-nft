@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--pp3-background, linear-gradient(113deg, #984D38 -30.3%, #181E41 58.12%)) no-repeat;
+    font-weight: 500px;
+    color: #fff;
+}
+.header {
+    max-width: 1197px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px 110px 15px;
+}
+.header__logo {
+    display: block;
+    background-image: url(../images/svg/logo.svg);
+    background-repeat: no-repeat;
+    width: 129px;
+    height: 25px;
+}
+.form { 
+    position: relative;
+
+}
+.form__button {
+    display: block;
+    background-image: url(../images/svg/search-icon.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.form__input { 
+    width: 384px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    padding: 10px 40px;
+    color: #fff;
+}
+.form__input::placeholder {
+    color: #FFFFFF80;
+}
+.form__input:focus {
+    outline: none;
+}
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px
+}
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
+.header__link__gradient {
+    border-radius: 10px;
+    background: var(--pp2-purple, linear-gradient(214deg, #B75CFF 6.04%, #671AE4 92.95%));
+    padding: 10px 20px;
+}
+
+.container {
+    max-width: 1197px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.main__text {
+    width: 490px;
+}
+.main__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.main__desc {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: rgba(255, 255, 255,.5);
+
+}
+.main__image {
+    flex-basis: calc(100% - 490px - 116px);
+}
+.main__img { 
+    width: 100%;
+}
+
+.main__btn {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.main__btn_gradient {
+    background-color: linear-gradient(214deg, #B75CFF 6.04%, #671AE4 92.95%);
+    margin-right: 20px;
+}
+.main__list {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    gap: 110px;
+}
+.main__item {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.main__span {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+
+}
